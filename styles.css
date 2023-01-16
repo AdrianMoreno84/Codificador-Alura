@@ -1,0 +1,307 @@
+
+/* configuracion estilos header, body */
+.cabeza{
+
+    background-color: rgb(107, 107, 226);
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: rgb(41, 39, 167);
+}
+body{
+   
+    background-color: rgb(41, 39, 167);
+    font-family: 'Ninja Naruto', sans-serif;
+}
+/* configuracion estilos h1*/
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+/* configuracion estilos elementos li en lista de clase medio */
+.medio li{
+    color: rgb(221, 215, 250);
+    background-image: url("img/narutoinicio.webp");
+    background-repeat: no-repeat;
+    background-size:100% 50%;
+    background-position:top ;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 400px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
+       
+}
+/* configuracion estilos elemento li con id encriptado */
+#encriptado{
+    color: antiquewhite;
+    background-image: url("img/HokageOffice.webp");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+
+}
+/* configuracion estilos lista con clase medio*/
+.medio {
+
+    width: auto;
+    margin: 0 auto ;
+    padding:   0px;
+}
+/* configuracion estilos elemento li con id corredor de la lista de clase medio */
+#corredor{
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+       
+}
+
+/* configuracion estilos imagen con id naruto */
+#naruto{
+    height: 200 px;
+    width: 160px;
+    padding: 230px 450px 0px 0px;
+    visibility: hidden;
+    
+}
+/* configuracion estilos label con clase etiqueta */
+.etiqueta{
+
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 0;
+    padding: 10px 0px 30px 10px;
+
+}
+/* configuracion estilos textarea con clase textos */
+.textos{
+    display: inline-block;
+    text-align: center;
+    width: 73%;
+    height: 68%;
+    vertical-align: top;
+    margin: 23px 38px;
+    padding: 0px 0px 0px 5px;
+      }
+  /* configuracion estilos div con clase entrada  */
+.entrada{
+    background-image: url("img/perganimo\ abierto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 96%;
+    height: 40%;
+    margin: 170px 0px 0px 5px;
+    
+
+}
+ /* configuracion estilos label con id etiquetaencriptado */
+#etiquetaencriptado{
+
+    visibility: hidden;
+}
+ /* configuracion estilos div con clase salida */
+.salida{
+
+    background-image: url("img/perganimo\ abierto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 96%;
+    height: 40%;
+    margin: 0px 0px 0px 5px;
+    
+}
+ /* configuracion estilos div con id salida */
+#salida{
+    visibility: hidden;
+}
+/* configuracion estilos input con clase copiar */
+.copiar{
+ 
+    margin: 100px 0px 0px 15px;
+    background-image: url("img/pergaminoboton.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    width: 100px ;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Ninja Naruto', sans-serif;
+  
+ }
+ /* configuracion estilos input con id copiar */
+ #btncopiar{
+    visibility: hidden;
+
+ }
+ /* configuracion estilos input con clase copiar */
+ .copiar:hover{
+    transform: scale(1.2);
+
+ }
+ /* configuracion estilos lista con clase botones */
+.botones{
+    width: 100% ;
+    height: 60px;
+
+}
+/* configuracion estilos elementos li  de lista con clase botones */
+.botones li{
+    
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    height: 60px;
+    vertical-align: top;
+    box-sizing: border-box;
+   
+ 
+}
+ /* configuracion estilos input con clase boton */
+.boton{
+
+    background-image: url("img/pergaminoboton.jpg");
+     background-size: cover;
+    background-position: center;
+    width: 35% ;
+    height: 100%;
+    border-radius: 10px;
+    font-family: 'Ninja Naruto', sans-serif;
+}
+  /* configuracion estilos input con clase boton */
+.boton:hover{
+
+        transform: scale(1.2);
+}
+
+ /* configuracion estilos div con clase pie */
+.pie{
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+}
+ /* configuracion estilos con pantallas con width de menos de 480px */
+@media screen and (max-width:480px){
+    
+    .entrada{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 100%;
+        height: 50%;
+        margin: 145px 0 0 0 ;
+        display: flex;
+    }
+    .medio li{
+    
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background-size: 100% 50%;
+        vertical-align: top;
+        box-sizing: border-box;
+            
+    }
+    #textoprincipal{
+
+    display: flex;
+    text-align: center;
+    width: 65%;
+    height: 68%;
+    vertical-align: top;
+    margin: 15px 10px 0px 50px;
+    padding: 10px 0px 0px 10px;
+
+    }
+    .etiqueta {
+        display: flex;
+        text-align:justify; 
+        width: 50%;
+        vertical-align: top;
+        margin: 170px 0 0 0;
+        padding: 10px 0px 10px 10px;
+    }
+    #corredor{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    #naruto {
+        height: 100 px;
+        width: 80px;
+        padding: 130px 250px 0px 0px;
+    }
+    #etiquetaencriptado{
+
+        display: inline-block;
+         text-align: justify;
+         width: 50%;
+         vertical-align: top;
+         margin: 0px 0 0 45px;
+         padding: 10px 0px 10px 10px;
+        flex-wrap: wrap;
+         flex-direction: column-reverse;
+         justify-content: flex-start;
+         
+    }
+    #encriptado{
+
+        display: inline-block;
+    }
+    #salida{
+        display: flex;
+        text-align: justify;
+         width: 50%;
+        vertical-align: top;
+        margin: 50px 0 0 95px;
+        padding: 10px 0px 10px 10px;
+        
+
+    }
+    .copiar {
+        margin: 100px 0px 0px 15px;
+        padding: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        font-family: 'Ninja Naruto', sans-serif;
+       
+    }
+    #textoencriptado{
+        
+        width: 76%;
+        height: 75%;
+        margin: 12px 0 0 26px;
+        padding: 0px 0px 0px 0px;
+    }
+    #btncopiar{
+        
+        margin: 21px 0px 0px 15px;
+    }
+    .boton{
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 48%;
+        height: 50%;
+        font-size: 10px;
+
+    }
+}

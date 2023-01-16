@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/ninja-naruto" rel="stylesheet">
+    <title>Codificador, desafio 1 Alura</title>
+</head>
+<body >
+    <header>
+        <div class="cabeza"></div>
+        <h1> &#10027; Encriptador   &#10027; &#10027;  Ninja &#10027;</h1>
+        
+        </div>
+    </header>
+
+    <main>
+
+        <ul class="medio">
+            <li>
+
+               
+                <div class="entrada">
+
+                    <textarea class="textos" id="textoprincipal" type="text-box"></textarea>
+
+                </div>
+                <label class="etiqueta" for="textoprincipal">Ingrese el Texto a Encriptar</label>
+                                
+            </li>
+            <li id="corredor">
+                
+                <img id="naruto" src="img/naruto corriendo.gif" alt="Naruto corriendo" >
+                
+            </li>
+            <li id="encriptado">
+
+                <label class="etiqueta" id="etiquetaencriptado">Texto codificado</label>
+                <div id="salida" class="salida">
+                    <textarea class="textos" id="textoencriptado" type="text-box" readonly="True" ></textarea>
+                </div>
+                              
+                <input class="copiar" id="btncopiar" type="button" value="copiar" onclick="copiar()">
+               
+            </li>
+        </ul>
+               
+            
+        </div>
+        <div class="final">
+
+            <ul class="botones">
+                <li><input class="boton" id="btnencriptar" type="button" value="Encriptar" onclick="leerTexto()"></li>
+                <li><input class="boton" id="btndesencriptar" type="button" value="Desencriptar" onclick="validarSimbolos()"></li>
+            </ul>
+
+         </div>
+    </main>
+
+    <footer>
+        <div class="pie">
+            <audio id="puño" src="sounds/puño.mp3"
+            visibility="hidden"></audio>
+            <audio id="clon" src="sounds/busing.wav"
+            visibility="hidden"></audio>
+            </div>
+            <audio id="copia" src="sounds/samurai-naruto.mp3"
+            visibility="hidden"></audio>
+            <audio id="dattebayo" src="sounds/Naruto Arigato Dattebayo.mp3"
+            visibility="hidden"></audio>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
