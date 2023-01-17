@@ -194,6 +194,12 @@ h1{
     margin: 0px;
     height: 200px;
 }
+.parrafo{
+
+    color:aliceblue;
+    text-align: center;
+    margin: 100px 0 0 0 ;
+}
  /* configuracion estilos con pantallas con width de menos de 480px */
 @media screen and (max-width:480px){
     
