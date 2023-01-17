@@ -95,7 +95,8 @@ h1{
     vertical-align: top;
     margin: 23px 38px;
     padding: 0px 0px 0px 5px;
-      }
+    font-size: 20px;
+     }
   /* configuracion estilos div con clase entrada  */
 .entrada{
     background-image: url("img/perganimo\ abierto.jpg");
@@ -199,6 +200,111 @@ h1{
     color:aliceblue;
     text-align: center;
     margin: 100px 0 0 0 ;
+}
+
+@media screen and (max-width:768px){
+    
+    .entrada{
+        background-repeat: no-repeat;
+        background-size: 98% 99%;
+        background-position: center;
+        width: 60%;
+        height: 50%;
+        margin: 198px 0 0 0;
+        display: flex;
+
+        
+    }
+    .medio li{
+    
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        background-size: 100% 50%;
+        vertical-align: top;
+        box-sizing: border-box;
+            
+    }
+    #textoprincipal{
+
+    width: 67%;
+    height: 64%;
+    margin: 31px 10px 0px 78px;
+ 
+
+    }
+    .etiqueta {
+        display: flex;
+        text-align:justify; 
+        width: 50%;
+        vertical-align: top;
+        margin:  280px 0 0 0;
+        padding: 10px 0px 10px 10px;
+    }
+    #corredor{
+        width: 100%;
+        height: 300px;
+        background-size: 100%;
+    }
+    #naruto {
+        height: 140px;
+        width: 80px;
+        padding: 170px 500px 0px 0px;
+    }
+    #etiquetaencriptado{
+
+        display: inline-block;
+         text-align: justify;
+         width: 50%;
+         vertical-align: top;
+         margin: 0px 0 0 180px;
+         padding: 10px 0px 10px 10px;
+        flex-wrap: wrap;
+         flex-direction: column-reverse;
+         justify-content: flex-start;
+         
+    }
+    #encriptado{
+
+        display: inline-block;
+    }
+    #salida{
+        background-size: 100% 100%;
+        width: 50%;
+        height: 50%;
+        margin: 70px 0 0 180px;
+      
+    }
+    .copiar {
+       
+        padding: 0px;
+        width: 135px;
+        height: 45px;
+         border-radius: 10px;
+        font-size: 15px;
+       
+    }
+    #textoencriptado{
+        
+        width: 70%;
+        height: 65%;
+        margin: 30px 0 0 30px;
+        padding: 0px 0px 0px 0px;
+    }
+    #btncopiar{
+        
+        margin: 21px 0px 0px 15px;
+    }
+    .boton{
+        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 60%;
+        height: 80%;
+        font-size: 16px;
+
+    }
 }
  /* configuracion estilos con pantallas con width de menos de 480px */
 @media screen and (max-width:480px){
