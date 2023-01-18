@@ -200,6 +200,7 @@ h1{
     color:aliceblue;
     text-align: center;
     margin: 100px 0 0 0 ;
+    font-family: Verdana;
 }
 
 @media screen and (max-width:768px){
