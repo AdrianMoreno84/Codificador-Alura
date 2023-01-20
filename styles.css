@@ -96,6 +96,7 @@ h1{
     margin: 23px 38px;
     padding: 0px 0px 0px 5px;
     font-size: 20px;
+    resize: none;
      }
   /* configuracion estilos div con clase entrada  */
 .entrada{
